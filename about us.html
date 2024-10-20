@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f9f9f9;
+            color: #333;
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+        }
+
+        header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background-color: #000;
+            padding: 10px 20px;
+            width: 100%;
+        }
+
+        .logo img {
+            height: 80px;
+            width: 100px;
+        }
+
+        nav ul {
+            list-style: none;
+            display: flex;
+        }
+
+        nav ul li {
+            margin: 0 10px;
+        }
+
+        nav ul li a {
+            color: #fff;
+            text-decoration: none;
+        }
+
+        nav ul li a:hover {
+            text-decoration: underline;
+        }
+
+        .main {
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin: 20px auto;
+            padding: 20px;
+        }
+
+        .content {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            max-width: 900px;
+            width: 100%;
+        }
+
+        .textbox {
+            background-color: #465E66;
+            color: #fff;
+            padding: 20px;
+            margin: 30px 0;
+            border: 1px solid #ddd;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            width: 50%;
+            position: relative;
+        }
+
+        .textbox.middle-right {
+            align-self: flex-end;
+            text-align: left;
+        }
+
+        .textbox.left {
+            align-self: flex-start;
+            text-align: left;
+        }
+
+        .text-with-image {
+            display: flex;
+            align-items: center;
+            gap: 20px; 
+        }
+
+        .text-with-image img {
+            flex-shrink: 0;
+            margin-left: -400px; 
+            margin-top: -90px;
+            height: 150px;
+            width: 140px;
+        }
+
+        .left-images {
+            position: absolute;
+            left: -250px;
+            top: 20px;
+            display: flex;
+            flex-direction: row;
+            gap: 100px;
+        }
+        .left-images img {
+            height: 150px;
+            width: 140px;
+        }
+        .right-image {
+            position: absolute;
+            right: -450px;
+            top: 20px;
+            display: flex;
+            flex-direction: row;
+            height: 150px;
+            width: 140px;
+        }
+        .right-image img {
+            height: 150px;
+            width: 140px;
+        }
+
+        .banner-image {
+            margin: 40px 0;
+            display: flex;
+            justify-content: center;
+        }
+
+        .banner-image img {
+            width: 100%;
+            max-width: 600px;
+            height: auto;
+            object-fit: cover;
+        }
+
+        footer {
+            background-color: #000;
+            color: #fff;
+            text-align: center;
+            padding: 10px;
+            position: relative;
+            width: 100%;
+            bottom: 0;
+            left: 0;
+        }
+
+        .social-links a {
+            margin: 0 10px;
+            color: #fff;
+            text-decoration: none;
+        }
+
+        .social-links a:hover {
+            text-decoration: underline;
+        }
+
+        .rights {
+            margin-top: 10px;
+            font-size: 12px;
+            color: #bbb;
+        }
+
+        .right-below img {
+            margin-left: 1000px; 
+            height: 150px;
+            width: 140px;
+        }
+
+        @media (max-width: 768px) {
+            .logo img {
+                height: 60px; 
+                width: auto; 
+            }
+
+            nav ul {
+                flex-direction: column; 
+                align-items: center;
+            }
+
+            nav ul li {
+                margin: 5px 0; 
+            }
+
+            .textbox {
+                width: 90%; 
+                margin: 15px 0; 
+                padding: 15px; 
+            }
+
+            .left-images {
+                position: relative; 
+                left: 0;
+                top: 0;
+                margin: 10px 0; 
+            }
+
+            .right-image {
+                position: relative; 
+                right: 0;
+                top: 0;
+                margin: 10px 0; 
+            }
+
+            .banner-image img {
+                max-width: 100%; 
+            }
+
+            .right-below img {
+                margin-left: 0; 
+                height: 120px; 
+                width: 120px; 
+            }
+
+            .text-with-image {
+                flex-direction: column; 
+                align-items: center; 
+            }
+
+            .text-with-image img {
+                margin-left: 0; 
+                margin-top: 10px; 
+                height: 100px; 
+                width: 100px; 
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <div class="logo">
+            <img src="https://github.com/antoniokean/img/blob/main/img/Logo.png?raw=true" alt="We Swear Logo">
+        </div>
+        <nav>
+            <ul>
+                <li><a href="WeSwear.html">Home</a></li>
+                <li><a href="about us.html">About Us</a></li>
+                <li><a href="our projects.html">Our Projects</a></li>
+                <li><a href="donate.html">Donate</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="main">
+        <div class="content">
+            <div class="textbox middle-right">
+                <div class="left-images">
+                    <div class="left-images">
+                        <img src="https://github.com/antoniokean/img/blob/main/img/6-removebg-preview.png?raw=true" alt="Image 1"> 
+                        <img src="https://github.com/antoniokean/img/blob/main/img/d-removebg-preview.png?raw=true" alt="Image 2"> 
+                    </div>
+                </div>                
+                <h2>What is We Swear?</h2>
+                <p>We Swear is a non-profit organization focused on promoting honesty in public life. It fosters transparency and ethical leadership through education and advocacy. The organization empowers individuals to uphold integrity. Its goal is lasting change through accountability.</p>
+                <img class="right-image" src="https://github.com/antoniokean/img/blob/main/img/d-removebg-preview.png?raw=true" alt="Image 3">
+            </div>
+
+            <div class="textbox left">
+                <h2>Our Vision</h2>
+                <p>A world where honesty and transparency guide all actions, creating a future of trust and integrity.</p>
+                <div class="right-image">
+                   <img src="https://github.com/antoniokean/img/blob/main/img/a-removebg-preview.png?raw=true" alt="Image 4">
+                </div>
+            </div>
+
+            <div class="textbox middle-right">
+                <h2>Our Mission</h2>
+                <p>To promote honesty and integrity through education and collaboration, inspiring ethical leadership.</p>
+                <div class="text-with-image">
+                    <img src="https://github.com/antoniokean/img/blob/main/img/a-removebg-preview.png?raw=true" alt="Image 5">
+                    <div class="text-content">
+                        <div class="right-below">
+                            <img src="https://github.com/antoniokean/img/blob/main/img/t-removebg-preview.png?raw=true" alt="Image 6">
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="banner-image">
+                <img src="https://github.com/antoniokean/img/blob/main/img/shutterstock_119601934.jpg?raw=true" alt="Children Learning">
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="social-links">
+            <a href="https://www.instagram.com/accounts/login/?hl=en">Instagram</a>
+            <a href="https://www.facebook.com/">Facebook</a>
+            <a href="https://twitter.com/login">Twitter</a>
+        </div>
+        <div class="rights">
+            <p>©2025 - 2030. We Swear. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>
