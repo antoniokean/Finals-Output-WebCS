@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>We Swear</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #D2D2D2;
+            color: #333;
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+            align-items: center;
+        }
+
+        header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background-color: #000;
+            padding: 10px 20px;
+            width: 100%;
+        }
+
+        .logo img {
+            height: 80px;
+            width: 100px;
+        }
+
+        nav ul {
+            list-style: none;
+            display: flex;
+        }
+
+        nav ul li {
+            margin: 0 10px;
+        }
+
+        nav ul li a {
+            color: #fff;
+            text-decoration: none;
+        }
+
+        nav ul li a:hover {
+            text-decoration: underline;
+        }
+
+        .main {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin: 20px auto;
+            width: 100%;
+            max-width: 1200px;
+            flex: 1; 
+        }
+
+        .banner-image img {
+            width: 100%;
+            height: 500px;
+            object-fit: cover;
+        }
+
+        .topics-section {
+            display: flex;
+            align-items: center; 
+            justify-content: center; 
+            width: 100%;
+            max-width: 1000px;
+            margin: 20px 0;
+        }
+
+        .topics {
+            flex: 1; 
+            text-align: center;
+        }
+
+        .topics ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        .topics ul li {
+            margin: 10px 0;
+        }
+
+        .circle-text {
+            border: 2px solid #333;
+            padding: 40px;
+            text-align: center;
+            width: 310px;
+            height: 310px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin: 20px auto;
+            border-radius: 50%;
+        }
+
+        .circle-text ul {
+            list-style: none;
+            font-size: 16px; 
+            line-height: 1.5; 
+        }
+
+        .top-images img {
+            width: 200px;
+            height: 150px;
+            margin: 0 20px; 
+        }
+
+        .live img {
+            width: 80px;
+            height: 70px;
+            margin: 0 258px;
+            justify-content: space-between;
+        }
+
+        .middle-images {
+            display: flex;
+            justify-content: space-between;
+            margin: 20px 0px;
+            width: 100%;
+            max-width: 1000px;
+        }
+
+        .middle-images img {
+            width: 90px;
+            height: 80px;
+            margin: 100px -450px;
+        }
+
+        .partnerships {
+            text-align: center;
+            margin: 40px auto;
+        }
+
+        .partner-logos {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .partner-logos img {
+            width: 120px;
+            margin: 0 20px;
+        }
+
+        .arrow {
+            cursor: pointer;
+            font-size: 24px;
+            margin: 0 10px;
+            user-select: none; 
+        }
+
+        footer {
+            background-color: #000;
+            color: #fff;
+            text-align: center;
+            padding: 10px;
+            width: 100%;
+            margin-top: auto; 
+        }
+
+        .social-links a {
+            margin: 0 10px;
+            color: #fff;
+            text-decoration: none;
+        }
+
+        .social-links a:hover {
+            text-decoration: underline;
+        }
+
+        .rights {
+            margin-top: 10px;
+            font-size: 12px;
+            color: #bbb;
+        }
+
+       
+        @media (max-width: 768px) {
+            .logo img {
+                height: 60px;
+                width: auto; 
+            }
+
+            nav ul {
+                flex-direction: column; 
+                align-items: center;
+            }
+
+            nav ul li {
+                margin: 5px 0; 
+            }
+
+            .banner-image img {
+                height: 300px; 
+            }
+
+            .circle-text {
+                padding: 20px;
+                width: 250px;
+                height: 250px;
+            }
+
+            .middle-images img {
+                width: 70px; 
+                height: 60px;
+                margin: 20px; 
+            }
+
+            .partner-logos img {
+                width: 100px; 
+            }
+
+            .live img {
+                width: 60px; 
+                height: 50px;
+                margin: 0 10px; 
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <div class="logo">
+            <img src="https://github.com/antoniokean/img/blob/main/img/Logo.png?raw=true" alt="We Swear Logo">
+        </div>
+        <nav>
+            <ul>
+                <li><a href="WeSwear.html">Home</a></li>
+                <li><a href="about us.html">About Us</a></li>
+                <li><a href="our projects.html">Our Projects</a></li>
+                <li><a href="donate.html">Donate</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="main">
+        <div class="banner-image">
+            <img src="https://github.com/antoniokean/img/blob/main/img/pict_large.jpg?raw=true" alt="Children Learning">
+        </div>
+
+        <div class="topics-section">
+            <div class="top-images">
+                <img src="https://github.com/antoniokean/img/blob/main/img/cbsp.jpg?raw=true" alt="Left Side Image">
+            </div>
+            <div class="topics">
+                <h2>Latest We Swear Topics</h2>
+                <div class="circle-text">
+                    <ul>
+                        <li>We Swear Oath:</li>
+                        <li>We Swear to go to School</li>
+                        <li>We Swear to never give up</li>
+                        <li>We Swear to strive for success</li>
+                        <li>We Swear to be helpful and respectful</li>
+                        <li>We Swear to listen to others</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="top-images">
+                <img src="https://github.com/antoniokean/img/blob/main/img/920979_1_0711-phil_standard.jpg?raw=true" alt="Right Side Image">
+            </div>
+        </div>
+
+        <div class="live">
+            <img src="https://github.com/antoniokean/img/blob/main/img/2-removebg-preview.png?raw=true" alt="live">
+            <img src="https://github.com/antoniokean/img/blob/main/img/2-removebg-preview.png?raw=true" alt="live">
+        </div>
+
+        <div class="middle-images">
+            <img src="https://github.com/antoniokean/img/blob/main/img/1-removebg-preview.png?raw=true" alt="news">
+            <img src="https://github.com/antoniokean/img/blob/main/img/3-removebg-preview%20(1).png?raw=true" alt="talk">
+        </div>
+
+        <div class="middle-images">
+            <img src="https://github.com/antoniokean/img/blob/main/img/I-Believe-Myself-My-Abilities-Graphics-21299456-1-1-580x368-removebg-preview%20(1).png?raw=true" alt="Left Below Middle 1">
+            <img src="https://github.com/antoniokean/img/blob/main/img/pngtree-two-businessman-hands-promise-gesturing-vector-graphic-hold-respect-vector-png-image_41197878-removebg-preview.png?raw=true" alt="Right Below Middle 1">
+        </div>
+
+        <div class="middle-images">
+            <img src="https://github.com/antoniokean/img/blob/main/img/pngtree-two-businessman-hands-promise-gesturing-vector-graphic-hold-respect-vector-png-image_41197878-removebg-preview.png?raw=true" alt="Left Below Middle 1">
+            <img src="https://github.com/antoniokean/img/blob/main/img/I-Believe-Myself-My-Abilities-Graphics-21299456-1-1-580x368-removebg-preview%20(1).png?raw=true" alt="Right Below Middle 1">
+        </div>
+
+        <div class="middle-images">
+            <img src="https://github.com/antoniokean/img/blob/main/img/Brown_Yellow_Final_Sale_Sport_Video_Instagram_Post__1_-removebg-preview.png?raw=true" alt="Left Below Middle 1">
+            <img src="https://github.com/antoniokean/img/blob/main/img/Brown_Yellow_Final_Sale_Sport_Video_Instagram_Post__1_-removebg-preview.png?raw=true" alt="Right Below Middle 1">
+        </div>
+
+        <div class="partnerships">
+            <h2>Our Partners</h2>
+            <div class="partner-logos">
+                <span class="arrow" id="prevArrow">&#9664;</span>
+                <img src="https://github.com/antoniokean/img/blob/main/img/jordan-brand-logo-symbol-design-clothes-sportwear-illustration-free-vector-removebg-preview.png?raw=true" alt="Partner 1" class="partner-img">
+                <img src="https://github.com/antoniokean/img/blob/main/img/Seal_of_Holy_Angel_University.png?raw=true" alt="Partner 2" class="partner-img">
+                <img src="https://github.com/antoniokean/img/blob/main/img/Hallownest-removebg-preview.png?raw=true" alt="Partner 3" class="partner-img">
+                <img src="https://github.com/antoniokean/img/blob/main/img/image-removebg-preview.png?raw=true" alt="Partner 4" class="partner-img">
+                <span class="arrow" id="nextArrow">&#9654;</span>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="social-links">
+            <a href="#">Facebook</a>
+            <a href="#">Twitter</a>
+            <a href="#">Instagram</a>
+        </div>
+        <div class="rights">
+            &copy; 2024 We Swear. All rights reserved.
+        </div>
+    </footer>
+
+    <script>
+        const partnerImages = [
+            "https://github.com/antoniokean/img/blob/main/img/jordan-brand-logo-symbol-design-clothes-sportwear-illustration-free-vector-removebg-preview.png?raw=true",
+            "https://github.com/antoniokean/img/blob/main/img/San-Fernando-Seal_1-500x500-removebg-preview.png?raw=true",
+            "https://github.com/antoniokean/img/blob/main/img/640px-Seal_of_Angeles_City-removebg-preview.png?raw=true",
+            "https://github.com/antoniokean/img/blob/main/img/243289085_165831899066969_8210314712860033_n-removebg-preview.png?raw=true",
+            "https://github.com/antoniokean/img/blob/main/img/Logo-NBA-removebg-preview.png?raw=true",
+            "https://github.com/antoniokean/img/blob/main/img/458445582_882919957056445_7192393827112555469_n-removebg-preview.png?raw=true"
+            
+        ];
+
+        let currentIndex = 0;
+
+        function updateImage() {
+            const partnerImg = document.querySelector('.partner-img');
+            partnerImg.src = partnerImages[currentIndex];
+        }
+
+        document.getElementById('prevArrow').addEventListener('click', () => {
+            currentIndex = (currentIndex - 1 + partnerImages.length) % partnerImages.length;
+            updateImage();
+        });
+
+        document.getElementById('nextArrow').addEventListener('click', () => {
+            currentIndex = (currentIndex + 1) % partnerImages.length;
+            updateImage();
+        });
+
+        updateImage();
+    </script>
+</body>
+</html>
